@@ -1,0 +1,233 @@
+html {
+    font-family: Delius;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;   
+}
+
+h2 {
+    text-decoration: underline;
+    padding: 10px;
+    background-color: rgb(12, 10, 10);
+    width: fit-content;
+    border-radius: 0.25rem;
+    color: rgb(237, 234, 227);
+    filter: drop-shadow(2px 2px rgb(12, 10, 10));
+}
+
+div {
+    margin: 50px;
+}
+
+header {
+    margin: 0;
+}
+
+
+.title {
+    display: flex;
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 10, 10);
+    width: 100%;
+    height: 6rem;
+    margin: 0;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.title-container {
+    margin: 0;
+    padding: 0;
+}
+
+.title img {
+    margin-left: 25px;
+    width: 20%;
+    height: auto;
+    filter: drop-shadow(2px 2px rgb(12, 10, 10));
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.navigation nav li {
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(237, 234, 227);
+    filter: drop-shadow(2px 2px rgb(12, 10, 10));
+}
+
+.navigation nav li:hover {
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin: 50px;
+    background-image: url(./mainbackground.jpg);
+    background-size: cover;
+    border-radius: 0.25rem;
+    padding: 200px;
+}
+
+.abouts {
+    margin-top: 150px;
+}
+
+.text-container {
+    background-color:rgb(12, 10, 10);
+    padding: 35px;
+    border-radius: 0.25rem;
+    letter-spacing: 2px;
+    width: auto;
+}
+
+.country {
+    margin: 50px;
+}
+
+.nations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    border-radius: 0.25rem;
+}
+
+.nations-container {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    background-color: rgb(12, 10, 10) ;
+    margin: 10px;
+    border-radius: 0.25rem;
+    filter: drop-shadow(5px 5px rgb(88, 84, 84));
+}
+
+.nations-container:hover {
+    transform: scale(1.05);
+    cursor: pointer; 
+}
+
+.nations img {
+    max-width: 490px;
+    min-width: 490px;
+    max-height: 350px;
+    min-height: 350px;
+    height: 300px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+
+.nations, .profile, .review, .footer, .about p, h3 {
+    color: rgb(237, 234, 227);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    background-image: url(./nationsbackground.jpg);
+}
+
+.profile img {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 350px;
+    min-height: 350px;
+    height: 300px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    object-fit: cover;
+}
+
+.guide-container {
+    max-width: 350px;
+    background-color: rgb(12, 10, 10);
+    align-items: center;
+    text-align: center;
+    width: auto;
+    border-radius: 0.25rem;
+    filter: drop-shadow(5px 5px rgb(88, 84, 84));
+}
+
+.guide-container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.guide-container p {
+    margin: 10px;
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review {
+    margin-bottom: 300px;
+}
+
+.review-container {
+    background-color: rgb(12, 10, 10);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 0.25rem;
+    filter: drop-shadow(5px 5px rgb(88, 84, 84));
+}
+
+.review-container img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+
+.review-container p {
+    margin: 20px;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(12, 10, 10);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.footer-container {
+    opacity: 75%;
+}
